@@ -1542,7 +1542,7 @@ ws.getCell('C1').alignment = { vertical: 'bottom', horizontal: 'right' };
 ws.getCell('D1').alignment = { wrapText: true };
 
 // set cell indent to 1
-ws.getCell('E1').alignment = { indent: 1 };
+ws.getCell('E1').alignment = { indent: 1, horizontal: 'left' };
 
 // set cell text rotation to 30deg upwards, 45deg downwards and vertical text
 ws.getCell('F1').alignment = { textRotation: 30 };
